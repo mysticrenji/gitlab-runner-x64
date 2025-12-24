@@ -7,7 +7,7 @@
 ## 'Always' if imageTag is 'latest', else set to 'IfNotPresent'
 ## ref: http://kubernetes.io/docs/user-guide/images/#pre-pulling-images
 ##
-image: gitlab/gitlab-runner:v18.3.1
+image: gitlab/gitlab-runner:v18.7.1
 securityContext:
   fsGroup: 999
   runAsUser: 999
